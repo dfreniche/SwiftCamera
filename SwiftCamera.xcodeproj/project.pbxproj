@@ -13,6 +13,7 @@
 		996D877219F508830049E9B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996D877119F508830049E9B3 /* Images.xcassets */; };
 		996D877519F508830049E9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996D877319F508830049E9B3 /* LaunchScreen.xib */; };
 		996D878119F508830049E9B3 /* SwiftCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D878019F508830049E9B3 /* SwiftCameraTests.swift */; };
+		996D879219F508DE0049E9B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 996D879019F508DE0049E9B3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		996D877A19F508830049E9B3 /* SwiftCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		996D877F19F508830049E9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996D878019F508830049E9B3 /* SwiftCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCameraTests.swift; sourceTree = "<group>"; };
+		996D879019F508DE0049E9B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		996D879719F509A00049E9B3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +62,10 @@
 		996D875C19F508830049E9B3 = {
 			isa = PBXGroup;
 			children = (
+				996D879019F508DE0049E9B3 /* README.md */,
 				996D876719F508830049E9B3 /* SwiftCamera */,
 				996D877D19F508830049E9B3 /* SwiftCameraTests */,
+				996D879419F508EF0049E9B3 /* PlayGround */,
 				996D876619F508830049E9B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,10 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				996D876A19F508830049E9B3 /* AppDelegate.swift */,
-				996D876C19F508830049E9B3 /* ViewController.swift */,
-				996D876E19F508830049E9B3 /* Main.storyboard */,
+				996D878A19F5088A0049E9B3 /* Controller */,
+				996D878B19F508950049E9B3 /* Views */,
 				996D877119F508830049E9B3 /* Images.xcassets */,
-				996D877319F508830049E9B3 /* LaunchScreen.xib */,
 				996D876819F508830049E9B3 /* Supporting Files */,
 			);
 			path = SwiftCamera;
@@ -110,6 +114,31 @@
 				996D877F19F508830049E9B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		996D878A19F5088A0049E9B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				996D876C19F508830049E9B3 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		996D878B19F508950049E9B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				996D877319F508830049E9B3 /* LaunchScreen.xib */,
+				996D876E19F508830049E9B3 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		996D879419F508EF0049E9B3 /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				996D879719F509A00049E9B3 /* MyPlayground.playground */,
+			);
+			name = PlayGround;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996D879219F508DE0049E9B3 /* README.md in Sources */,
 				996D876D19F508830049E9B3 /* ViewController.swift in Sources */,
 				996D876B19F508830049E9B3 /* AppDelegate.swift in Sources */,
 			);

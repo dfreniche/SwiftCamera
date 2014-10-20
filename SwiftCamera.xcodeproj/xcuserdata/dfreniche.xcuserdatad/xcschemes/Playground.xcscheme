@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "996D876419F508830049E9B3"
-               BuildableName = "SwiftCamera.app"
-               BlueprintName = "SwiftCamera"
-               ReferencedContainer = "container:SwiftCamera.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "996D877919F508830049E9B3"
-               BuildableName = "SwiftCameraTests.xctest"
-               BlueprintName = "SwiftCameraTests"
+               BlueprintIdentifier = "996D878C19F508B70049E9B3"
+               BuildableName = "Playground"
+               BlueprintName = "Playground"
                ReferencedContainer = "container:SwiftCamera.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "996D877919F508830049E9B3"
-               BuildableName = "SwiftCameraTests.xctest"
-               BlueprintName = "SwiftCameraTests"
-               ReferencedContainer = "container:SwiftCamera.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "996D876419F508830049E9B3"
-            BuildableName = "SwiftCamera.app"
-            BlueprintName = "SwiftCamera"
-            ReferencedContainer = "container:SwiftCamera.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -72,15 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "996D876419F508830049E9B3"
-            BuildableName = "SwiftCamera.app"
-            BlueprintName = "SwiftCamera"
+            BlueprintIdentifier = "996D878C19F508B70049E9B3"
+            BuildableName = "Playground"
+            BlueprintName = "Playground"
             ReferencedContainer = "container:SwiftCamera.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +57,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "996D876419F508830049E9B3"
-            BuildableName = "SwiftCamera.app"
-            BlueprintName = "SwiftCamera"
+            BlueprintIdentifier = "996D878C19F508B70049E9B3"
+            BuildableName = "Playground"
+            BlueprintName = "Playground"
             ReferencedContainer = "container:SwiftCamera.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
